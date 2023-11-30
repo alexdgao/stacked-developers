@@ -1,7 +1,7 @@
 # Stacked Developers
 
 Group Members:
- - Daniel Liu
+ - David Liu
  - Yehchan Yoo
  - Alex Gao
  - Haorui Zhang
