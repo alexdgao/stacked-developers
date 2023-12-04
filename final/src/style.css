@@ -1429,3 +1429,161 @@
   top: 1146px;
 }
 
+.blog {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.blog .div {
+  background-color: #ffffff;
+  height: 2692px;
+  overflow: hidden;
+  position: relative;
+  width: 1440px;
+}
+
+.blog .overlap {
+  height: 524px;
+  left: -332px;
+  position: absolute;
+  top: 2286px;
+  width: 2104px;
+}
+
+.blog .footer {
+  background-color: #cfe0c3;
+  height: 524px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 2104px;
+}
+
+.blog .overlap-group-wrapper {
+  height: 39px;
+  left: 386px;
+  position: absolute;
+  top: 76px;
+  width: 74px;
+}
+
+.blog .footer-navigation {
+  height: 188px;
+  left: 566px;
+  position: absolute;
+  top: 95px;
+  width: 61px;
+}
+
+.blog .text-wrapper-7 {
+  color: #ffffff;
+  font-family: "Outfit", Helvetica;
+  font-size: 15px;
+  font-weight: 600;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+}
+
+.blog .text-wrapper-8 {
+  color: #ffffff;
+  font-family: "Outfit", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 40px;
+}
+
+.blog .text-wrapper-9 {
+  color: #ffffff;
+  font-family: "Outfit", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 83px;
+}
+
+.blog .text-wrapper-10 {
+  color: #ffffff;
+  font-family: "Outfit", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 126px;
+}
+
+.blog .text-wrapper-11 {
+  color: #ffffff;
+  font-family: "Outfit", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 169px;
+}
+
+.blog .connect {
+  height: 188px;
+  left: 747px;
+  position: absolute;
+  top: 95px;
+  width: 79px;
+}
+
+.blog .legal {
+  height: 164px;
+  left: 926px;
+  position: absolute;
+  top: 95px;
+  width: 53px;
+}
+
+.blog .vector {
+  height: 148px;
+  left: 1142px;
+  position: absolute;
+  top: 119px;
+  width: 343px;
+}
+
+.blog .by-author-month-day {
+  color: #7a7a7a;
+  font-family: "Outfit", Helvetica;
+  font-size: 32px;
+  font-weight: 700;
+  left: 189px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 624px;
+  width: 1065px;
+}
+
+.blog .lorem-ipsum-dolor {
+  color: #7a7a7a;
+  font-family: "Outfit", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 188px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 753px;
+  width: 1066px;
+}
