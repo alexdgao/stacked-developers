@@ -14,7 +14,7 @@
   width: 1440px;
 }
 
-.home-page .navigation-bar {
+.navigation-bar {
   height: 100px;
   left: 0;
   position: absolute;
@@ -22,14 +22,14 @@
   width: 1448px;
 }
 
-.home-page .navbar {
+.navbar {
   background-color: #9ec1a3;
   height: 100px;
   position: relative;
   width: 1440px;
 }
 
-.home-page .text-wrapper {
+.text-wrapper {
   color: #ffffff;
   font-family: "Outfit", Helvetica;
   font-size: 20px;
@@ -42,7 +42,7 @@
   text-decoration: none;
 }
 
-.home-page .text-wrapper-2 {
+.text-wrapper-2 {
   color: #ffffff;
   font-family: "Outfit", Helvetica;
   font-size: 20px;
@@ -55,7 +55,7 @@
   text-decoration: none;
 }
 
-.home-page .text-wrapper-3 {
+.text-wrapper-3 {
   color: #ffffff;
   font-family: "Outfit", Helvetica;
   font-size: 20px;
@@ -68,7 +68,7 @@
   text-decoration: none;
 }
 
-.home-page .text-wrapper-4 {
+.text-wrapper-4 {
   color: #ffffff;
   font-family: "Outfit", Helvetica;
   font-size: 20px;
@@ -81,7 +81,7 @@
   text-decoration: none;
 }
 
-.home-page .logo-text {
+.logo-text {
   height: 39px;
   left: 188px;
   position: absolute;
@@ -89,13 +89,13 @@
   width: 74px;
 }
 
-.home-page .overlap-group {
+.overlap-group {
   height: 39px;
   position: relative;
   width: 70px;
 }
 
-.home-page .text-wrapper-5 {
+.text-wrapper-5 {
   color: #ffffff;
   font-family: "Outfit", Helvetica;
   font-size: 20px;
@@ -107,7 +107,7 @@
   top: 14px;
 }
 
-.home-page .text-wrapper-6 {
+.text-wrapper-6 {
   color: #ffffff;
   font-family: "Outfit", Helvetica;
   font-size: 15px;
@@ -927,106 +927,7 @@
   width: 1440px;
 }
 
-.login-page .navigation-bar {
-  height: 100px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 1448px;
-}
 
-.login-page .navbar {
-  background-color: #9ec1a3;
-  height: 100px;
-  position: relative;
-  width: 1440px;
-}
-
-.login-page .text-wrapper {
-  color: #ffffff;
-  font-family: "Outfit", Helvetica;
-  font-size: 20px;
-  font-weight: 500;
-  left: 1210px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 39px;
-}
-
-.login-page .text-wrapper-2 {
-  color: #ffffff;
-  font-family: "Outfit", Helvetica;
-  font-size: 20px;
-  font-weight: 500;
-  left: 1125px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 39px;
-}
-
-.login-page .text-wrapper-3 {
-  color: #ffffff;
-  font-family: "Outfit", Helvetica;
-  font-size: 20px;
-  font-weight: 500;
-  left: 1027px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 39px;
-}
-
-.login-page .text-wrapper-4 {
-  color: #ffffff;
-  font-family: "Outfit", Helvetica;
-  font-size: 20px;
-  font-weight: 500;
-  left: 931px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 39px;
-}
-
-.login-page .logo-text {
-  height: 39px;
-  left: 188px;
-  position: absolute;
-  top: 25px;
-  width: 74px;
-}
-
-.login-page .overlap-group {
-  height: 39px;
-  position: relative;
-  width: 70px;
-}
-
-.login-page .text-wrapper-5 {
-  color: #ffffff;
-  font-family: "Outfit", Helvetica;
-  font-size: 20px;
-  font-weight: 800;
-  left: 0;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 14px;
-}
-
-.login-page .text-wrapper-6 {
-  color: #ffffff;
-  font-family: "Outfit", Helvetica;
-  font-size: 15px;
-  font-weight: 300;
-  left: 0;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 0;
-}
 
 .login-page .overlap {
   background-color: #efefef;
@@ -1241,3 +1142,290 @@
   top: 5px;
   white-space: nowrap;
 }
+
+.about {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.about .div {
+  background-color: #ffffff;
+  height: 2816px;
+  overflow: hidden;
+  position: relative;
+  width: 1440px;
+}
+
+.about .footer {
+  background-color: #cfe0c3;
+  height: 406px;
+  left: 1px;
+  position: absolute;
+  top: 2410px;
+  width: 1440px;
+}
+
+.about .overlap-group-wrapper {
+  height: 39px;
+  left: 188px;
+  position: absolute;
+  top: 76px;
+  width: 74px;
+}
+
+.about .footer-navigation {
+  height: 188px;
+  left: 368px;
+  position: absolute;
+  top: 95px;
+  width: 61px;
+}
+
+.about .text-wrapper-7 {
+  color: #ffffff;
+  font-family: "Outfit", Helvetica;
+  font-size: 15px;
+  font-weight: 600;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+}
+
+.about .text-wrapper-8 {
+  color: #ffffff;
+  font-family: "Outfit", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 40px;
+}
+
+.about .text-wrapper-9 {
+  color: #ffffff;
+  font-family: "Outfit", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 83px;
+}
+
+.about .text-wrapper-10 {
+  color: #ffffff;
+  font-family: "Outfit", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 126px;
+}
+
+.about .text-wrapper-11 {
+  color: #ffffff;
+  font-family: "Outfit", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 169px;
+}
+
+.about .connect {
+  height: 188px;
+  left: 549px;
+  position: absolute;
+  top: 95px;
+  width: 79px;
+}
+
+.about .legal {
+  height: 164px;
+  left: 728px;
+  position: absolute;
+  top: 95px;
+  width: 53px;
+}
+
+.about .vector {
+  height: 148px;
+  left: 910px;
+  position: absolute;
+  top: 119px;
+  width: 343px;
+}
+
+.about .spencer-davis-vjsj {
+  height: 606px;
+  left: 0;
+  position: absolute;
+  top: 100px;
+  width: 1440px;
+}
+
+.about .text-wrapper-12 {
+  color: #70a9a1;
+  font-family: "Outfit", Helvetica;
+  font-size: 88px;
+  font-weight: 800;
+  left: 188px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 747px;
+}
+
+.about .overlap {
+  height: 237px;
+  left: 188px;
+  position: absolute;
+  top: 1243px;
+  width: 1065px;
+}
+
+.about .text-wrapper-13 {
+  color: #70a9a1;
+  font-family: "Outfit", Helvetica;
+  font-size: 64px;
+  font-weight: 600;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 156px;
+}
+
+.about .p {
+  color: #7a7a7a;
+  font-family: "Outfit", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 1065px;
+}
+
+.about .welcome-to-the {
+  color: #7a7a7a;
+  font-family: "Outfit", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  left: 188px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 862px;
+  width: 1065px;
+}
+
+.about .overlap-2 {
+  height: 355px;
+  left: 187px;
+  position: absolute;
+  top: 1496px;
+  width: 1065px;
+}
+
+.about .text-wrapper-14 {
+  color: #70a9a1;
+  font-family: "Outfit", Helvetica;
+  font-size: 64px;
+  font-weight: 600;
+  left: 1px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 160px;
+}
+
+.about .text-wrapper-15 {
+  color: #7a7a7a;
+  font-family: "Outfit", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 236px;
+  width: 1065px;
+}
+
+.about .text-wrapper-16 {
+  color: #70a9a1;
+  font-family: "Outfit", Helvetica;
+  font-size: 64px;
+  font-weight: 600;
+  left: 188px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 1879px;
+}
+
+.about .hi-there-i-m-shaojie {
+  color: #7a7a7a;
+  font-family: "Outfit", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  left: 187px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 1967px;
+  width: 1065px;
+}
+
+.about .text-wrapper-17 {
+  color: #70a9a1;
+  font-family: "Outfit", Helvetica;
+  font-size: 64px;
+  font-weight: 600;
+  left: 187px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 2111px;
+}
+
+.about .greetings-i-m-haorui {
+  color: #7a7a7a;
+  font-family: "Outfit", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  left: 187px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 2203px;
+  width: 1065px;
+}
+
+.about .text-wrapper-18 {
+  color: #70a9a1;
+  font-family: "Outfit", Helvetica;
+  font-size: 64px;
+  font-weight: 600;
+  left: 189px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 1146px;
+}
+
