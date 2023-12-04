@@ -1,66 +1,31 @@
-// import TopBar from "./TopBar"
-// import './App.css'
-// import inspirationalImg from './assets/inspirational_image.svg'
-
-// function App() {
-//   return (
-//     <>
-//       <TopBar />
-//       <div className="text">
-//         <h1 className="centertext">Homepage</h1>
-//         <div className="centertext">
-//             "Believe you can and you're halfway there." - Theodore Roosevelt
-//         </div>
-//       </div>
-//       <div>
-//           <img className="frontpageimg" src={inspirationalImg}/>
-//       </div>
-//     </>
-//   )
-// }
-
-// export default App
 
 import React from "react";
-// import "./App.css";
+import NavBar from "./NavBar.jsx";
 import "./style.css";
 
 function HomePage() {
   return (
     <div className="home-page">
       <div className="div">
-        <div className="navigation-bar">
-          <div className="navbar">
-            <div className="text-wrapper">login</div>
-            <div className="text-wrapper-2">blog</div>
-            <div className="text-wrapper-3">about</div>
-            <div className="text-wrapper-4">home</div>
-            <div className="logo-text">
-              <div className="overlap-group">
-                <div className="text-wrapper-5">foodies</div>
-                <div className="text-wrapper-6">berkeley</div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <NavBar />
         <div className="hello-food-lovers">
           <div className="overlap">
             <div className="text-wrapper-7">hello</div>
             <div className="text-wrapper-8">lovers</div>
-            <img className="dish-removebg" alt="Dish removebg" src="/img/dish-2-removebg-preview-1.png" />
-            <img className="image" alt="Image" src="/img/image-5.png" />
+            <img className="dish-removebg" alt="Dish removebg" src="/static/img/dish-2-removebg-preview-1.png" />
+            <img className="image" alt="Image" src="/static/img/image-5.png" />
             <div className="text-wrapper-9">food</div>
-            <img className="img" alt="Image" src="/img/image-2.png" />
+            <img className="img" alt="Image" src="/static/img/image-2.png" />
             <div className="text-wrapper-8">l</div>
             <div className="side-food-pictures">
               <div className="overlap-group-2">
                 <div className="text-wrapper-10">week night salad</div>
-                <img className="image-2" alt="Image" src="/img/image-3.png" />
+                <img className="image-2" alt="Image" src="/static/img/image-3.png" />
               </div>
               <div className="overlap-2">
                 <div className="text-wrapper-11">deconstructed</div>
                 <div className="text-wrapper-12">omelette</div>
-                <img className="image-3" alt="Image" src="/img/image-4.png" />
+                <img className="image-3" alt="Image" src="/static/img/image-4.png" />
               </div>
             </div>
           </div>
@@ -72,21 +37,21 @@ function HomePage() {
             <div className="rectangle-2" />
             <div className="rectangle-3" />
             <div className="rectangle-4" />
-            <img className="arrow" alt="Arrow" src="/img/arrow-1.svg" />
-            <img className="arrow-2" alt="Arrow" src="/img/arrow-2.svg" />
+            <img className="arrow" alt="Arrow" src="/static/img/arrow-1.svg" />
+            <img className="arrow-2" alt="Arrow" src="/static/img/arrow-2.svg" />
             <div className="text-wrapper-14">Title 1</div>
             <div className="text-wrapper-15">short description</div>
             <div className="overlap-4">
               <div className="text-wrapper-16">read more</div>
-              <img className="line" alt="Line" src="/img/line-5.svg" />
+              <img className="line" alt="Line" src="/static/img/line-5.svg" />
             </div>
             <div className="overlap-5">
               <div className="text-wrapper-16">read more</div>
-              <img className="line" alt="Line" src="/img/line-5.svg" />
+              <img className="line" alt="Line" src="/static/img/line-5.svg" />
             </div>
             <div className="overlap-group-3">
               <div className="text-wrapper-16">read more</div>
-              <img className="line" alt="Line" src="/img/line-5.svg" />
+              <img className="line" alt="Line" src="/static/img/line-5.svg" />
             </div>
             <div className="text-wrapper-17">short description</div>
             <div className="text-wrapper-18">short description</div>
@@ -95,9 +60,9 @@ function HomePage() {
             <div className="text-wrapper-21">author, 10/01/23</div>
             <div className="text-wrapper-22">Title 2</div>
             <div className="text-wrapper-23">Title 3</div>
-            <img className="arrow-3" alt="Arrow" src="/img/arrow-5.svg" />
-            <img className="arrow-4" alt="Arrow" src="/img/arrow-5.svg" />
-            <img className="arrow-5" alt="Arrow" src="/img/arrow-5.svg" />
+            <img className="arrow-3" alt="Arrow" src="/static/img/arrow-5.svg" />
+            <img className="arrow-4" alt="Arrow" src="/static/img/arrow-5.svg" />
+            <img className="arrow-5" alt="Arrow" src="/static/img/arrow-5.svg" />
           </div>
         </div>
         <div className="overlap-6">
@@ -153,9 +118,9 @@ function HomePage() {
           <div className="text-wrapper-28">image to be added</div>
           <div className="text-wrapper-29">image to be added</div>
           <div className="text-wrapper-30">image to be added</div>
-          <img className="image-4" alt="Image" src="/img/image-6.png" />
-          <img className="image-5" alt="Image" src="/img/image-7.png" />
-          <img className="image-6" alt="Image" src="/img/image-8.png" />
+          <img className="image-4" alt="Image" src="/static/img/image-6.png" />
+          <img className="image-5" alt="Image" src="/static/img/image-7.png" />
+          <img className="image-6" alt="Image" src="/static/img/image-8.png" />
         </div>
         <footer className="footer">
           <div className="logo-text-2">
@@ -184,7 +149,7 @@ function HomePage() {
             <div className="text-wrapper-33">smth 2</div>
             <div className="text-wrapper-34">smth 3</div>
           </div>
-          <img className="vector" alt="Vector" src="/img/vector.png" />
+          <img className="vector" alt="Vector" src="/static/img/vector.png" />
         </footer>
       </div>
     </div>

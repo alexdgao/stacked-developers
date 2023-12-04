@@ -1,6 +1,6 @@
 import React from 'react'
-import TopBar from "./TopBar"
-import './App.css'
+import NavBar from "./NavBar"
+import './style.css'
 import { Link } from 'react-router-dom'
 
 function Thankyou() {
