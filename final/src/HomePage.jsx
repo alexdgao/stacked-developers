@@ -1,7 +1,31 @@
+// import TopBar from "./TopBar"
+// import './App.css'
+// import inspirationalImg from './assets/inspirational_image.svg'
+
+// function App() {
+//   return (
+//     <>
+//       <TopBar />
+//       <div className="text">
+//         <h1 className="centertext">Homepage</h1>
+//         <div className="centertext">
+//             "Believe you can and you're halfway there." - Theodore Roosevelt
+//         </div>
+//       </div>
+//       <div>
+//           <img className="frontpageimg" src={inspirationalImg}/>
+//       </div>
+//     </>
+//   )
+// }
+
+// export default App
+
 import React from "react";
+// import "./App.css";
 import "./style.css";
 
-export const HomePage = () => {
+function HomePage() {
   return (
     <div className="home-page">
       <div className="div">
@@ -164,5 +188,7 @@ export const HomePage = () => {
         </footer>
       </div>
     </div>
-  );
-};
+  )
+}
+
+export default HomePage

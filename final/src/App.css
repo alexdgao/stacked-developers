@@ -1,0 +1,257 @@
+html {
+  background-color: rgb(46, 49, 65);
+  font-family: monospace;
+  margin: 0px;
+  padding: 0px;
+  color: rgb(198, 208, 245);
+}
+
+.centertext {
+  text-align: center;
+  color: rgb(198, 208, 245);
+  margin: 14vh;
+  margin-bottom: 20px;
+}
+
+.centerimg {
+  width: 87vw;
+}
+
+.article {
+  size: large;
+  text-align: center;
+  margin: 14vh;
+}
+
+.frontpageimg {
+  width: 100 vw;
+}
+
+.mainpagetitle {
+  background-color: rgb(41, 44, 60);
+  border-width: 0px;
+  padding: 0px;
+}
+
+.mainpagebutton {
+  display: flex;
+  height: 10vh;
+  padding-left: 20px;
+  padding-right: 20px;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  color: rgb(198, 208, 245);
+  margin-left: 20px;
+}
+
+.subtitle {
+  margin: 24px;
+  padding-top: 3px;
+  color: rgb(144, 160, 215);
+}
+
+.errormessage {
+  color: red;
+}
+
+.titleinput {
+  margin: 1px;
+  padding: 1px;
+  width: 50vw;
+  resize: none;
+}
+
+.largeinputbox {
+  margin: 1px;
+  padding: 1px;
+  width: 50vw;
+  height: 50vh;
+  resize: none;
+}
+
+body {
+  margin: 0px;
+}
+
+h1 {
+  text-align: left;
+}
+
+.link {
+  color: rgb(198, 208, 245);
+}
+
+.header {
+  display: flex;
+  position: fixed;
+  flex-direction: row;
+  width: 100%;
+  top: 0px;
+  height: 10vh;
+  background-color: rgb(41, 44, 60);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topbutton {
+  display: flex;
+  padding: 0px;
+  align-items: stretch;
+}
+
+.topbutton > button > a {
+  display: flex;
+  height: 10vh;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: rgb(48, 52, 70);
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  color: rgb(198, 208, 245);
+}
+
+.topbutton > button {
+  background-color: rgb(48, 52, 70);
+  border-width: 0px;
+  padding: 0px;
+}
+
+
+.topbutton > button > a:hover {
+  background-color: rgb(81, 87, 109);
+}
+
+.textleftimageright {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.textleftimageright > img {
+  height: 100px;
+  transition: 
+      width 1s,
+      height 1s,
+      transform 1s;
+  margin-right: 350px;
+}
+
+
+.textleftimageright > img:hover {
+  transform: scale(5.0);
+}
+
+.surface1 {
+  background-color: rgb(35, 38, 52);
+  margin: 0px;
+  padding: 0px;
+}
+
+.text {
+  color: rgb(198, 208, 245);
+  margin: 12vh;
+  font-size: large;
+}
+
+button {
+  color: aliceblue;
+  border-radius: 10px;
+  border: 4px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #575599;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #434bdf;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+.link {
+  text-decoration: none;
+}
+
+.spacer {
+  flex:1;
+  color:green;
+}
+
+.cardcontainer {
+  align-items:center;
+  display:flex;
+  flex-direction:column;
+  position:relative;
+}
+
+.PostCard {
+  display:flex;
+  flex-direction:row;
+  margin:30px;
+  width:50%;
+  height:200px;
+  color:white;
+  overflow:hidden;
+  flex:0,1;
+  text-decoration:none;
+  background-color: rgb(41, 44, 60);
+  filter: drop-shadow(0 0 2rem black);
+}
+.CardInfo {
+  padding:20px;
+  width:40%;
+  flex:0,1;
+}
+.CardImage {
+  width:40%;
+  flex:0,1;
+  justify-content:center;
+}
+.CardImage img {
+  height:100%;
+  object-fit:cover;
+  align-items:center;
+}
+
+.postcontainer {
+  align-items:center;
+  position:relative;
+  display:flex;
+  flex-direction:column;
+}
+.postheader {
+  align-items:center;
+  justify-content:center;
+  display:flex;
+}
+.postimage {
+  width:auto;
+  height:100vh;
+  position:relative;
+}
+.posttitle {
+  font-size:xx-large;
+  position:absolute;
+  top:15vh;
+}
+.postimagegradient {
+  position:absolute;
+  height:40vh;
+  width:100%;
+  top:0px;
+  background: linear-gradient(rgb(0, 0, 0),rgba(0,0,0,0));
+}
+.postbody {
+  margin-left:20%;
+  margin-right:20%;
+  margin-top:5%;
+  margin-bottom:10%;
+  font-size:large;
+  line-height: 30px;
+}
