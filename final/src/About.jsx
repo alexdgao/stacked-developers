@@ -29,12 +29,6 @@ function About() {
             <div className="text-wrapper-10">facebook</div>
             <div className="text-wrapper-11">linkedin</div>
           </div>
-          <div className="legal">
-            <div className="text-wrapper-7">legal</div>
-            <div className="text-wrapper-8">smth 1</div>
-            <div className="text-wrapper-9">smth 2</div>
-            <div className="text-wrapper-10">smth 3</div>
-          </div>
           <img className="vector" alt="Vector" src="/static/img/vector.png" />
         </footer>
         <img
