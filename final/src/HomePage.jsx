@@ -132,10 +132,10 @@ function HomePage() {
           </div>
           <div className="footer-navigation">
             <div className="text-wrapper-31">foodies</div>
-            <div className="text-wrapper-32">home</div>
-            <div className="text-wrapper-33">about</div>
-            <div className="text-wrapper-34">blog</div>
-            <div className="text-wrapper-35">login</div>
+            <Link to="/" className="text-wrapper-32">home</Link>
+            <Link to="/about" className="text-wrapper-33">about</Link>
+            <Link to="/blog" className="text-wrapper-34">blog</Link>
+            <Link to="/login" className="text-wrapper-35">login</Link>
           </div>
           <div className="connect">
             <div className="text-wrapper-31">connect</div>

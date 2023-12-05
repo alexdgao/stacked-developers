@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 import NavBar from "./NavBar";
+import { Link } from 'react-router-dom';
 
 function Blog() {
   return (
@@ -17,10 +18,10 @@ function Blog() {
             </div>
             <div className="footer-navigation">
               <div className="text-wrapper-7">foodies</div>
-              <div className="text-wrapper-8">home</div>
-              <div className="text-wrapper-9">about</div>
-              <div className="text-wrapper-10">blog</div>
-              <div className="text-wrapper-11">login</div>
+              <Link to="/" className="text-wrapper-8">home</Link>
+              <Link to="/about" className="text-wrapper-9">about</Link>
+              <Link to="/blog" className="text-wrapper-10">blog</Link>
+              <Link to="/login" className="text-wrapper-11">login</Link>
             </div>
             <div className="connect">
               <div className="text-wrapper-7">connect</div>
@@ -36,7 +37,7 @@ function Blog() {
               <div className="text-wrapper-10">smth 3</div>
             </div>
           </footer>
-          <img className="vector" alt="Vector" src="/img/vector.png" />
+          <img className="vector" alt="Vector" src="/static/img/vector.png" />
         </div>
         <div className="by-author-month-day">
           By Author
