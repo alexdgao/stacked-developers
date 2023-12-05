@@ -11,7 +11,7 @@ function Signup() {
         <NavBar />
         <div className="overlap">
           <div className="overlap-2">
-            <div className="text-wrapper-7">Submit</div>
+            <div className="text-wrapper-7">register</div>
             <div className="div-wrapper">
               <Link to="/thankyou" className="text-wrapper-8">submit</Link>
             </div>
