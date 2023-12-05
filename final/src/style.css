@@ -4,29 +4,27 @@
   flex-direction: row;
   justify-content: center;
   width: 100%;
+  height: 3500px;
 }
 
 .home-page .div {
   background-color: #ffffff;
-  height: 3832px;
   overflow: hidden;
-  position: relative;
-  width: 1440px;
+  width: 100%;
+  height: 3500px;
 }
 
 .navigation-bar {
   height: 100px;
   left: 0;
-  position: absolute;
   top: 0;
-  width: 1448px;
+  width: 100%;
 }
 
 .navbar {
   background-color: #9ec1a3;
   height: 100px;
-  position: relative;
-  width: 1440px;
+  width: 100%;
 }
 
 .text-wrapper {
@@ -124,7 +122,7 @@
   left: 77px;
   position: absolute;
   top: 135px;
-  width: 1337px;
+  width: 100%;
 }
 
 .home-page .overlap {
@@ -617,7 +615,6 @@
   line-height: normal;
   position: absolute;
   top: 5px;
-  text-decoration: none;
 }
 
 .home-page .the-hub {
@@ -661,7 +658,6 @@
   line-height: normal;
   position: absolute;
   top: 5px;
-  text-decoration: none;
 }
 
 .home-page .discover-quick {
@@ -740,7 +736,6 @@
   position: absolute;
   top: 4px;
   width: 59px;
-  text-decoration: none;
 }
 
 .home-page .text-wrapper-28 {
@@ -811,7 +806,7 @@
   left: 0;
   position: absolute;
   top: 3426px;
-  width: 1440px;
+  width: 100%;
 }
 
 .home-page .logo-text-2 {
@@ -1159,7 +1154,7 @@
   height: 2816px;
   overflow: hidden;
   position: relative;
-  width: 1440px;
+  width: 100%;
 }
 
 .about .footer {
@@ -1168,7 +1163,7 @@
   left: 1px;
   position: absolute;
   top: 2410px;
-  width: 1440px;
+  width: 100%;
 }
 
 .about .overlap-group-wrapper {
@@ -1276,7 +1271,7 @@
   left: 0;
   position: absolute;
   top: 100px;
-  width: 1440px;
+  width: 100%;
 }
 
 .about .text-wrapper-12 {
@@ -1445,7 +1440,7 @@
   height: 2692px;
   overflow: hidden;
   position: relative;
-  width: 1440px;
+  width: 100%;
 }
 
 .blog .overlap {
@@ -1462,7 +1457,7 @@
   left: 0;
   position: absolute;
   top: 0;
-  width: 2104px;
+  width: 100%;
 }
 
 .blog .overlap-group-wrapper {
