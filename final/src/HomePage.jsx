@@ -144,12 +144,6 @@ function HomePage() {
             <div className="text-wrapper-34">facebook</div>
             <div className="text-wrapper-35">linkedin</div>
           </div>
-          <div className="legal">
-            <div className="text-wrapper-31">legal</div>
-            <div className="text-wrapper-32">smth 1</div>
-            <div className="text-wrapper-33">smth 2</div>
-            <div className="text-wrapper-34">smth 3</div>
-          </div>
           <img className="vector" alt="Vector" src="/static/img/vector.png" />
         </footer>
       </div>
