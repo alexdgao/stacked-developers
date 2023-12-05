@@ -617,6 +617,7 @@
   line-height: normal;
   position: absolute;
   top: 5px;
+  text-decoration: none;
 }
 
 .home-page .the-hub {
@@ -660,6 +661,7 @@
   line-height: normal;
   position: absolute;
   top: 5px;
+  text-decoration: none;
 }
 
 .home-page .discover-quick {
@@ -738,6 +740,7 @@
   position: absolute;
   top: 4px;
   width: 59px;
+  text-decoration: none;
 }
 
 .home-page .text-wrapper-28 {

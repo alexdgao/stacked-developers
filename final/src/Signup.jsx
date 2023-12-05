@@ -4,26 +4,19 @@ import NavBar  from "./NavBar";
 import { Link } from 'react-router-dom';
 
 
-function Login() {
+function Signup() {
   return (
     <div className="login-page">
       <div className="div">
         <NavBar />
         <div className="overlap">
           <div className="overlap-2">
-            <div className="text-wrapper-7">new here?</div>
-            <p className="sign-up-and-unlock">
-              sign up and
-              <br />
-              unlock hundreds
-              <br />
-              of recipes!
-            </p>
+            <div className="text-wrapper-7">Submit</div>
             <div className="div-wrapper">
-              <Link to="/signup" className="text-wrapper-8">sign up</Link>
+              <Link to="/thankyou" className="text-wrapper-8">submit</Link>
             </div>
           </div>
-          <div className="text-wrapper-9">login</div>
+          <div className="text-wrapper-9">sign up</div>
           <div className="overlap-3">
             <div className="text-wrapper-10">email</div>
           </div>
@@ -49,4 +42,4 @@ function Login() {
   );
 };
 
-export default Login
+export default Signup

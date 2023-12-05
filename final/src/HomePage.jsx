@@ -2,6 +2,7 @@
 import React from "react";
 import NavBar from "./NavBar.jsx";
 import "./style.css";
+import { Link } from 'react-router-dom';
 
 function HomePage() {
   return (
@@ -75,7 +76,7 @@ function HomePage() {
               </p>
               <button className="button">
                 <div className="div-wrapper">
-                  <div className="text-wrapper-25">learn more</div>
+                  <Link to="/about" className="text-wrapper-25">learn more</Link>
                 </div>
               </button>
             </div>
@@ -87,7 +88,7 @@ function HomePage() {
               </div>
               <button className="overlap-group-wrapper">
                 <div className="div-wrapper">
-                  <div className="text-wrapper-26">all posts</div>
+                  <Link to="/blog" className="text-wrapper-26">all posts</Link>
                 </div>
               </button>
               <p className="discover-quick">
@@ -110,7 +111,7 @@ function HomePage() {
               </p>
               <button className="button-2">
                 <div className="overlap-group-4">
-                  <div className="text-wrapper-27">login</div>
+                  <Link to="/login" className="text-wrapper-27">login</Link>
                 </div>
               </button>
             </div>
