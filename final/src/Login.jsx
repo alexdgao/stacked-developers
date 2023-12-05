@@ -25,11 +25,10 @@ function Login() {
           </div>
           <div className="text-wrapper-9">login</div>
           <div className="overlap-3">
-            <div className="text-wrapper-10">email</div>
+            <input id="email" size="30" placeholder="email" />
           </div>
           <div className="overlap-4">
-            <div className="text-wrapper-10">password</div>
-            <div className="text-wrapper-10">password</div>
+            <input id="password" size="30" placeholder="password" />
           </div>
           <div className="text-wrapper-11">or</div>
           <img className="line" alt="Line" src="/static/img/line-7.svg" />
