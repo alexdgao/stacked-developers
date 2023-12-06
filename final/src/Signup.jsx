@@ -1,8 +1,15 @@
 import React from "react";
 import "./style.css";
 import NavBar  from "./NavBar";
-import { Link } from 'react-router-dom';
 import { useNavigate } from "react-router-dom";
+
+// connect to database??
+let db = new sqlite3.Database('../../backend/database.db', (err) => {
+  if (err) {
+    console.error(err.message);
+  }
+  console.log('Connected to the database.');
+});
 
 function Signup() {
 
