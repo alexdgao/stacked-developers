@@ -2,21 +2,25 @@ import React from "react";
 import "./style.css";
 import NavBar  from "./NavBar";
 import { useNavigate } from "react-router-dom";
+import axios from "axios";
 
-// connect to database??
-// let db = new sqlite3.Database('../../backend/database.db', (err) => {
-//   if (err) {
-//     console.error(err.message);
-//   }
-//   console.log('Connected to the database.');
-// });
+
 
 function Signup() {
 
   const navigate = useNavigate();
-  db.run(`INSERT INTO Users (Id, Name, Age, Email) VALUES (1, 'Charlie', 55, 'charlie@yahoo.com')`);
 
   function handleSubmit() {
+    // fetch('http://localhost:3003/')
+    //   .then((response) => response.json())
+    //   .then((data) => console.log(data));
+    axios.get('https://github.com/alexdgao/stacked-developers/tree/main/backend')
+      .then(function (response) {
+        console.log(response);
+      })
+      .catch(function (error) {
+        console.log(error);
+      })
     navigate("/thankyou");
   }
 
