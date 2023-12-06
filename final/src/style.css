@@ -1,3 +1,7 @@
+.errormessage {
+  color: red;
+}
+
 .home-page {
   background-color: #ffffff;
   display: flex;
