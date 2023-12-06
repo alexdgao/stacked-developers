@@ -4,12 +4,12 @@ import NavBar  from "./NavBar";
 import { useNavigate } from "react-router-dom";
 
 // connect to database??
-let db = new sqlite3.Database('../../backend/database.db', (err) => {
-  if (err) {
-    console.error(err.message);
-  }
-  console.log('Connected to the database.');
-});
+// let db = new sqlite3.Database('../../backend/database.db', (err) => {
+//   if (err) {
+//     console.error(err.message);
+//   }
+//   console.log('Connected to the database.');
+// });
 
 function Signup() {
 
