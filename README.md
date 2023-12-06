@@ -5,6 +5,7 @@ To run, enter in terminal:
  - node main.js
 Then in another terminal:
  - cd final
+ - npm install
  - npm run dev
 
 Group Members:
