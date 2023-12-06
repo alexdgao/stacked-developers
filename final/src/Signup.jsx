@@ -2,28 +2,17 @@ import React from "react";
 import "./style.css";
 import NavBar  from "./NavBar";
 import { Link } from 'react-router-dom';
-
-const sqlite3 = require('sqlite3').verbose();
-const db = new sqlite3.Database('myDatabaseFile.db');
-
-db.serialize(() => {
-  db.run(`CREATE TABLE Users (
-    Id INT PRIMARY KEY,
-    Name VARCHAR(50),
-    Age INT,
-    Email VARCHAR(100)
-  )`);
-
-  db.run(`INSERT INTO Users (Id, Name, Age, Email) VALUES (1, 'Charlie', 55, 'charlie@yahoo.com')`);
-
-  db.each("SELECT * FROM Users", (err, row) => {
-      console.log(row);
-  });
-});
-
-db.close();
+import { useNavigate } from "react-router-dom";
 
 function Signup() {
+
+  const navigate = useNavigate();
+  db.run(`INSERT INTO Users (Id, Name, Age, Email) VALUES (1, 'Charlie', 55, 'charlie@yahoo.com')`);
+
+  function handleSubmit() {
+    navigate("/thankyou");
+  }
+
   return (
     <div className="login-page">
       <div className="div">
@@ -32,7 +21,7 @@ function Signup() {
           <div className="overlap-2">
             <div className="text-wrapper-7">register</div>
             <div className="div-wrapper">
-              <Link to="/thankyou" className="text-wrapper-8">submit</Link>
+              <button onClick={handleSubmit} className="text-wrapper-8">submit</button>
             </div>
           </div>
           <div className="text-wrapper-9">sign up</div>
