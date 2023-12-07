@@ -1,87 +1,48 @@
+.errormessage {
+  color: red;
+}
+
 .home-page {
   background-color: #ffffff;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
-  width: 100%;
-  height: 3500px;
-}
-
-.home-page .div {
-  background-color: #ffffff;
-  overflow: hidden;
-  width: 100%;
-  height: 3500px;
-}
-
-.navigation-bar {
-  height: 100px;
-  left: 0;
-  top: 0;
   width: 100%;
 }
 
 .navbar {
   background-color: #9ec1a3;
   height: 100px;
+  position: absolute;
   width: 100%;
+  top: 0;
+  left: 0;
 }
 
-.text-wrapper {
+.navbar .nav-links {
+  list-style-type: none;
+  display: flex;
+  margin-top: 40px;
+  float: right;
+}
+
+.navbar .nav-links li {
+  padding: 0px 20px;
+}
+
+.navbar .nav-links li a {
   color: #ffffff;
+  text-decoration: none;
   font-family: "Outfit", Helvetica;
   font-size: 20px;
   font-weight: 500;
-  left: 1210px;
   letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 39px;
-  text-decoration: none;
-}
-
-.text-wrapper-2 {
-  color: #ffffff;
-  font-family: "Outfit", Helvetica;
-  font-size: 20px;
-  font-weight: 500;
-  left: 1125px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 39px;
-  text-decoration: none;
-}
-
-.text-wrapper-3 {
-  color: #ffffff;
-  font-family: "Outfit", Helvetica;
-  font-size: 20px;
-  font-weight: 500;
-  left: 1027px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 39px;
-  text-decoration: none;
-}
-
-.text-wrapper-4 {
-  color: #ffffff;
-  font-family: "Outfit", Helvetica;
-  font-size: 20px;
-  font-weight: 500;
-  left: 931px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 39px;
-  text-decoration: none;
 }
 
 .logo-text {
   height: 39px;
-  left: 188px;
+  left: 10%;
   position: absolute;
   top: 25px;
   width: 74px;
@@ -117,54 +78,6 @@
   top: 0;
 }
 
-.home-page .hello-food-lovers {
-  height: 858px;
-  left: 77px;
-  position: absolute;
-  top: 135px;
-  width: 100%;
-}
-
-.home-page .overlap {
-  height: 866px;
-  left: -4px;
-  position: relative;
-  width: 1339px;
-}
-
-.home-page .text-wrapper-7 {
-  color: #000000;
-  font-family: "Playfair Display", Helvetica;
-  font-size: 240px;
-  font-weight: 400;
-  left: 384px;
-  letter-spacing: -24px;
-  line-height: normal;
-  position: absolute;
-  top: 42px;
-}
-
-.home-page .text-wrapper-8 {
-  color: #000000;
-  font-family: "Playfair Display", Helvetica;
-  font-size: 240px;
-  font-weight: 400;
-  left: 307px;
-  letter-spacing: -24px;
-  line-height: normal;
-  position: absolute;
-  top: 402px;
-}
-
-.home-page .dish-removebg {
-  height: 412px;
-  left: 747px;
-  object-fit: cover;
-  position: absolute;
-  top: 454px;
-  width: 468px;
-}
-
 .home-page .image {
   height: 253px;
   left: 446px;
@@ -172,18 +85,6 @@
   position: absolute;
   top: 235px;
   width: 250px;
-}
-
-.home-page .text-wrapper-9 {
-  color: #000000;
-  font-family: "Playfair Display", Helvetica;
-  font-size: 240px;
-  font-weight: 400;
-  left: 601px;
-  letter-spacing: -24px;
-  line-height: normal;
-  position: absolute;
-  top: 246px;
 }
 
 .home-page .img {
@@ -276,19 +177,11 @@
   width: 49px;
 }
 
-.home-page .our-latest-post {
-  height: 496px;
-  left: -66px;
-  position: absolute;
-  top: 996px;
-  width: 1626px;
-}
-
 .home-page .overlap-3 {
   background-color: #cfe0c3;
   height: 496px;
   position: relative;
-  width: 1600px;
+  width: 100%;
 }
 
 .home-page .text-wrapper-13 {
@@ -296,295 +189,46 @@
   font-family: "Outfit", Helvetica;
   font-size: 40px;
   font-weight: 900;
-  left: 253px;
+  left: 13.5%;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   top: 32px;
 }
 
-.home-page .rectangle {
-  background-color: #ffffff;
-  height: 5px;
-  left: 254px;
-  position: absolute;
-  top: 82px;
-  width: 75px;
-}
-
-.home-page .rectangle-2 {
-  background-color: #ffffff;
-  border-radius: 25px;
-  height: 201px;
-  left: 363px;
-  position: absolute;
-  top: 147px;
-  width: 255px;
-}
-
-.home-page .rectangle-3 {
-  background-color: #ffffff;
-  border-radius: 25px;
-  height: 201px;
-  left: 658px;
-  position: absolute;
-  top: 147px;
-  width: 255px;
-}
-
-.home-page .rectangle-4 {
-  background-color: #ffffff;
-  border-radius: 25px;
-  height: 201px;
-  left: 953px;
-  position: absolute;
-  top: 147px;
-  width: 255px;
-}
-
-.home-page .arrow {
-  height: 15px;
-  left: 286px;
-  position: absolute;
-  top: 241px;
-  width: 16px;
-}
-
-.home-page .arrow-2 {
-  height: 15px;
-  left: 1273px;
-  position: absolute;
-  top: 241px;
-  width: 16px;
-}
-
-.home-page .text-wrapper-14 {
-  color: #ffffff;
-  font-family: "Outfit", Helvetica;
-  font-size: 20px;
-  font-weight: 500;
-  left: 363px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 354px;
-}
-
-.home-page .text-wrapper-15 {
-  color: #ffffff;
-  font-family: "Outfit", Helvetica;
-  font-size: 14px;
-  font-weight: 300;
-  left: 363px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 385px;
-}
-
-.home-page .overlap-4 {
-  height: 18px;
-  left: 363px;
-  position: absolute;
-  top: 415px;
-  width: 68px;
-}
-
-.home-page .text-wrapper-16 {
-  color: #70a9a1;
-  font-family: "Outfit", Helvetica;
-  font-size: 14px;
-  font-weight: 800;
-  left: 0;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 0;
-}
-
-.home-page .line {
-  height: 1px;
-  left: 1px;
-  object-fit: cover;
-  position: absolute;
-  top: 17px;
-  width: 65px;
-}
-
-.home-page .overlap-5 {
-  height: 18px;
-  left: 658px;
-  position: absolute;
-  top: 415px;
-  width: 68px;
-}
-
-.home-page .overlap-group-3 {
-  height: 18px;
-  left: 953px;
-  position: absolute;
-  top: 415px;
-  width: 68px;
-}
-
-.home-page .text-wrapper-17 {
-  color: #ffffff;
-  font-family: "Outfit", Helvetica;
-  font-size: 14px;
-  font-weight: 300;
-  left: 658px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 385px;
-}
-
-.home-page .text-wrapper-18 {
-  color: #ffffff;
-  font-family: "Outfit", Helvetica;
-  font-size: 14px;
-  font-weight: 300;
-  left: 953px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 385px;
-}
-
-.home-page .text-wrapper-19 {
-  color: #ffffff;
-  font-family: "Outfit", Helvetica;
-  font-size: 13px;
-  font-weight: 400;
-  left: 522px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 361px;
-}
-
-.home-page .text-wrapper-20 {
-  color: #ffffff;
-  font-family: "Outfit", Helvetica;
-  font-size: 13px;
-  font-weight: 400;
-  left: 818px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 361px;
-}
-
-.home-page .text-wrapper-21 {
-  color: #ffffff;
-  font-family: "Outfit", Helvetica;
-  font-size: 13px;
-  font-weight: 400;
-  left: 1113px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 358px;
-}
-
-.home-page .text-wrapper-22 {
-  color: #ffffff;
-  font-family: "Outfit", Helvetica;
-  font-size: 20px;
-  font-weight: 500;
-  left: 658px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 354px;
-}
-
-.home-page .text-wrapper-23 {
-  color: #ffffff;
-  font-family: "Outfit", Helvetica;
-  font-size: 20px;
-  font-weight: 500;
-  left: 953px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 354px;
-}
-
-.home-page .arrow-3 {
-  height: 7px;
-  left: 433px;
-  object-fit: cover;
-  position: absolute;
-  top: 421px;
-  width: 8px;
-}
-
-.home-page .arrow-4 {
-  height: 7px;
-  left: 728px;
-  object-fit: cover;
-  position: absolute;
-  top: 421px;
-  width: 8px;
-}
-
-.home-page .arrow-5 {
-  height: 7px;
-  left: 1023px;
-  object-fit: cover;
-  position: absolute;
-  top: 421px;
-  width: 8px;
-}
-
 .home-page .overlap-6 {
-  height: 1632px;
-  left: 187px;
   position: absolute;
-  top: 1613px;
-  width: 1068px;
+  display: grid;
+  grid-template-columns: auto auto;
+  top: 1000px;
+  padding: 10px;
+  min-width: 850px;
+  max-width: 1000px;
 }
 
-.home-page .text-blurbs {
-  height: 1632px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 1068px;
+.home-page .overlap-6 .text-blurb{
+  word-wrap: break-word;
 }
 
-.home-page .who-are-we {
-  height: 341px;
-  left: 1px;
-  position: absolute;
-  top: 0;
-  width: 517px;
+.home-page .overlap-6 img{
+  width: 400px;
+  height: 400px;
 }
 
-.home-page .text-wrapper-24 {
+.home-page .paragraph-title {
   color: #70a9a1;
   font-family: "Outfit", Helvetica;
-  font-size: 88px;
+  font-size: 60px;
   font-weight: 900;
-  left: 0;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 0;
+  margin: 0;
 }
 
-.home-page .welcome-to-blog-name {
+.home-page .paragraph-text {
   color: #7a7a7a;
   font-family: "Outfit", Helvetica;
   font-size: 24px;
   font-weight: 400;
-  left: 0;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 123px;
-  width: 435px;
+  margin: 20px 0 20px 0;
 }
 
 .home-page .button {
@@ -593,7 +237,6 @@
   height: 43px;
   left: 0;
   position: absolute;
-  top: 298px;
   width: 168px;
 }
 
@@ -601,8 +244,16 @@
   background-color: #70a9a1;
   border-radius: 100px;
   height: 43px;
-  position: relative;
   width: 166px;
+}
+
+.home-page .overlap-group-wrapper {
+  all: unset;
+  box-sizing: border-box;
+  height: 43px;
+  position: absolute;
+  width: 168px;
+  right: 0px;
 }
 
 .home-page .text-wrapper-25 {
@@ -615,37 +266,7 @@
   line-height: normal;
   position: absolute;
   top: 5px;
-}
-
-.home-page .the-hub {
-  height: 474px;
-  left: 475px;
-  position: absolute;
-  top: 586px;
-  width: 597px;
-}
-
-.home-page .the-hub-for-hungry {
-  color: #70a9a1;
-  font-family: "Outfit", Helvetica;
-  font-size: 88px;
-  font-weight: 900;
-  left: 0;
-  letter-spacing: 0;
-  line-height: 81.5px;
-  position: absolute;
-  text-align: right;
-  top: 0;
-}
-
-.home-page .overlap-group-wrapper {
-  all: unset;
-  box-sizing: border-box;
-  height: 43px;
-  left: 425px;
-  position: absolute;
-  top: 431px;
-  width: 168px;
+  text-decoration: none;
 }
 
 .home-page .text-wrapper-26 {
@@ -658,20 +279,7 @@
   line-height: normal;
   position: absolute;
   top: 5px;
-}
-
-.home-page .discover-quick {
-  color: #7a7a7a;
-  font-family: "Outfit", Helvetica;
-  font-size: 24px;
-  font-weight: 400;
-  left: 63px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  text-align: right;
-  top: 196px;
-  width: 530px;
+  text-decoration: none;
 }
 
 .home-page .join-the {
@@ -680,41 +288,6 @@
   position: absolute;
   top: 1159px;
   width: 486px;
-}
-
-.home-page .join-the-movement {
-  color: #70a9a1;
-  font-family: "Outfit", Helvetica;
-  font-size: 88px;
-  font-weight: 900;
-  left: 12px;
-  letter-spacing: 0;
-  line-height: 81.5px;
-  position: absolute;
-  top: 0;
-}
-
-.home-page .unlock-a-world-of {
-  color: #7a7a7a;
-  font-family: "Outfit", Helvetica;
-  font-size: 24px;
-  font-weight: 400;
-  left: 1px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 186px;
-  width: 435px;
-}
-
-.home-page .button-2 {
-  all: unset;
-  box-sizing: border-box;
-  height: 43px;
-  left: 0;
-  position: absolute;
-  top: 430px;
-  width: 124px;
 }
 
 .home-page .overlap-group-4 {
@@ -736,6 +309,7 @@
   position: absolute;
   top: 4px;
   width: 59px;
+  text-decoration: none;
 }
 
 .home-page .text-wrapper-28 {
@@ -775,14 +349,6 @@
   width: 117px;
 }
 
-.home-page .image-4 {
-  height: 399px;
-  left: 666px;
-  position: absolute;
-  top: 5px;
-  width: 400px;
-}
-
 .home-page .image-5 {
   height: 400px;
   left: 1px;
@@ -800,114 +366,6 @@
   width: 400px;
 }
 
-.home-page .footer {
-  background-color: #cfe0c3;
-  height: 406px;
-  left: 0;
-  position: absolute;
-  top: 3426px;
-  width: 100%;
-}
-
-.home-page .logo-text-2 {
-  height: 39px;
-  left: 188px;
-  position: absolute;
-  top: 76px;
-  width: 74px;
-}
-
-.home-page .footer-navigation {
-  height: 188px;
-  left: 368px;
-  position: absolute;
-  top: 95px;
-  width: 61px;
-}
-
-.home-page .text-wrapper-31 {
-  color: #ffffff;
-  font-family: "Outfit", Helvetica;
-  font-size: 15px;
-  font-weight: 600;
-  left: 0;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 0;
-}
-
-.home-page .text-wrapper-32 {
-  color: #ffffff;
-  font-family: "Outfit", Helvetica;
-  font-size: 15px;
-  font-weight: 400;
-  left: 0;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 40px;
-}
-
-.home-page .text-wrapper-33 {
-  color: #ffffff;
-  font-family: "Outfit", Helvetica;
-  font-size: 15px;
-  font-weight: 400;
-  left: 0;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 83px;
-}
-
-.home-page .text-wrapper-34 {
-  color: #ffffff;
-  font-family: "Outfit", Helvetica;
-  font-size: 15px;
-  font-weight: 400;
-  left: 0;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 126px;
-}
-
-.home-page .text-wrapper-35 {
-  color: #ffffff;
-  font-family: "Outfit", Helvetica;
-  font-size: 15px;
-  font-weight: 400;
-  left: 0;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 169px;
-}
-
-.home-page .connect {
-  height: 188px;
-  left: 549px;
-  position: absolute;
-  top: 95px;
-  width: 79px;
-}
-
-.home-page .legal {
-  height: 164px;
-  left: 728px;
-  position: absolute;
-  top: 95px;
-  width: 53px;
-}
-
-.home-page .vector {
-  height: 148px;
-  left: 910px;
-  position: absolute;
-  top: 119px;
-  width: 343px;
-}
 
 .login-page {
   background-color: #ffffff;
@@ -922,10 +380,8 @@
   height: 1024px;
   overflow: hidden;
   position: relative;
-  width: 1440px;
+  width: 100%;
 }
-
-
 
 .login-page .overlap {
   background-color: #efefef;
@@ -1040,548 +496,52 @@
   width: 239px;
 }
 
-.login-page .text-wrapper-11 {
-  color: #9b9b9b;
-  font-family: "Outfit", Helvetica;
-  font-size: 16px;
-  font-weight: 300;
-  left: 156px;
-  letter-spacing: 0;
-  line-height: 15.2px;
-  position: absolute;
-  text-align: center;
-  top: 192px;
-  white-space: nowrap;
-}
-
-.login-page .line {
-  height: 1px;
-  left: 47px;
+.hero-image {
+  position: relative;
+  top: 100px;
+  width: 100%;
+  height: auto;
+  max-height: 600px;
   object-fit: cover;
-  position: absolute;
-  top: 201px;
-  width: 82px;
 }
 
-.login-page .img {
-  height: 1px;
-  left: 202px;
-  object-fit: cover;
-  position: absolute;
-  top: 201px;
-  width: 82px;
+.text-block {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
 }
 
-.login-page .overlap-5 {
-  background-color: #889ad8;
-  height: 28px;
-  left: 44px;
-  position: absolute;
-  top: 221px;
-  width: 240px;
-}
-
-.login-page .text-wrapper-12 {
-  color: #ffffff;
+.title-text {
+  font-size: 88px;
   font-family: "Outfit", Helvetica;
-  font-size: 16px;
-  font-weight: 300;
-  left: 44px;
-  letter-spacing: 0;
-  line-height: 15.2px;
-  position: absolute;
-  text-align: center;
-  top: 5px;
-  white-space: nowrap;
+  font-weight: 800;
+  color: #70a9a1;
 }
 
-.login-page .overlap-6 {
-  background-color: #80b082;
-  height: 28px;
-  left: 44px;
-  position: absolute;
-  top: 261px;
-  width: 240px;
-}
-
-.login-page .text-wrapper-13 {
-  color: #ffffff;
+.main-text {
+  color: #7a7a7a;
   font-family: "Outfit", Helvetica;
-  font-size: 16px;
-  font-weight: 300;
-  left: 53px;
-  letter-spacing: 0;
-  line-height: 15.2px;
-  position: absolute;
-  text-align: center;
-  top: 5px;
-  white-space: nowrap;
-}
-
-.login-page .overlap-7 {
-  background-color: #b7d7e1;
-  height: 28px;
-  left: 44px;
-  position: absolute;
-  top: 301px;
-  width: 240px;
-}
-
-.login-page .text-wrapper-14 {
-  color: #ffffff;
-  font-family: "Outfit", Helvetica;
-  font-size: 16px;
-  font-weight: 300;
-  left: 55px;
-  letter-spacing: 0;
-  line-height: 15.2px;
-  position: absolute;
-  text-align: center;
-  top: 5px;
-  white-space: nowrap;
+  font-size: 32px;
+  font-weight: 400;
 }
 
 .about {
-  background-color: #ffffff;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
 }
 
-.about .div {
-  background-color: #ffffff;
-  height: 2816px;
-  overflow: hidden;
-  position: relative;
-  width: 100%;
-}
-
-.about .footer {
-  background-color: #cfe0c3;
-  height: 406px;
-  left: 1px;
-  position: absolute;
-  top: 2410px;
-  width: 100%;
-}
-
-.about .overlap-group-wrapper {
-  height: 39px;
-  left: 188px;
-  position: absolute;
-  top: 76px;
-  width: 74px;
-}
-
-.about .footer-navigation {
-  height: 188px;
-  left: 368px;
-  position: absolute;
-  top: 95px;
-  width: 61px;
-}
-
-.about .text-wrapper-7 {
-  color: #ffffff;
-  font-family: "Outfit", Helvetica;
-  font-size: 15px;
-  font-weight: 600;
-  left: 0;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 0;
-}
-
-.about .text-wrapper-8 {
-  color: #ffffff;
-  font-family: "Outfit", Helvetica;
-  font-size: 15px;
-  font-weight: 400;
-  left: 0;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 40px;
-}
-
-.about .text-wrapper-9 {
-  color: #ffffff;
-  font-family: "Outfit", Helvetica;
-  font-size: 15px;
-  font-weight: 400;
-  left: 0;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 83px;
-}
-
-.about .text-wrapper-10 {
-  color: #ffffff;
-  font-family: "Outfit", Helvetica;
-  font-size: 15px;
-  font-weight: 400;
-  left: 0;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 126px;
-}
-
-.about .text-wrapper-11 {
-  color: #ffffff;
-  font-family: "Outfit", Helvetica;
-  font-size: 15px;
-  font-weight: 400;
-  left: 0;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 169px;
-}
-
-.about .connect {
-  height: 188px;
-  left: 549px;
-  position: absolute;
-  top: 95px;
-  width: 79px;
-}
-
-.about .legal {
-  height: 164px;
-  left: 728px;
-  position: absolute;
-  top: 95px;
-  width: 53px;
-}
-
-.about .vector {
-  height: 148px;
-  left: 910px;
-  position: absolute;
-  top: 119px;
-  width: 343px;
-}
-
-.about .spencer-davis-vjsj {
-  height: 606px;
-  left: 0;
-  position: absolute;
-  top: 100px;
-  width: 100%;
-}
-
-.about .text-wrapper-12 {
-  color: #70a9a1;
-  font-family: "Outfit", Helvetica;
-  font-size: 88px;
-  font-weight: 800;
-  left: 188px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 747px;
-}
-
-.about .overlap {
-  height: 237px;
-  left: 188px;
-  position: absolute;
-  top: 1243px;
-  width: 1065px;
-}
-
-.about .text-wrapper-13 {
+.about .name-text {
   color: #70a9a1;
   font-family: "Outfit", Helvetica;
   font-size: 64px;
   font-weight: 600;
-  left: 0;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 156px;
-}
-
-.about .p {
-  color: #7a7a7a;
-  font-family: "Outfit", Helvetica;
-  font-size: 32px;
-  font-weight: 400;
-  left: 0;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 0;
-  width: 1065px;
-}
-
-.about .welcome-to-the {
-  color: #7a7a7a;
-  font-family: "Outfit", Helvetica;
-  font-size: 32px;
-  font-weight: 400;
-  left: 188px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 862px;
-  width: 1065px;
-}
-
-.about .overlap-2 {
-  height: 355px;
-  left: 187px;
-  position: absolute;
-  top: 1496px;
-  width: 1065px;
-}
-
-.about .text-wrapper-14 {
-  color: #70a9a1;
-  font-family: "Outfit", Helvetica;
-  font-size: 64px;
-  font-weight: 600;
-  left: 1px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 160px;
-}
-
-.about .text-wrapper-15 {
-  color: #7a7a7a;
-  font-family: "Outfit", Helvetica;
-  font-size: 32px;
-  font-weight: 400;
-  left: 0;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 236px;
-  width: 1065px;
-}
-
-.about .text-wrapper-16 {
-  color: #70a9a1;
-  font-family: "Outfit", Helvetica;
-  font-size: 64px;
-  font-weight: 600;
-  left: 188px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 1879px;
-}
-
-.about .hi-there-i-m-shaojie {
-  color: #7a7a7a;
-  font-family: "Outfit", Helvetica;
-  font-size: 32px;
-  font-weight: 400;
-  left: 187px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 1967px;
-  width: 1065px;
-}
-
-.about .text-wrapper-17 {
-  color: #70a9a1;
-  font-family: "Outfit", Helvetica;
-  font-size: 64px;
-  font-weight: 600;
-  left: 187px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 2111px;
-}
-
-.about .greetings-i-m-haorui {
-  color: #7a7a7a;
-  font-family: "Outfit", Helvetica;
-  font-size: 32px;
-  font-weight: 400;
-  left: 187px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 2203px;
-  width: 1065px;
-}
-
-.about .text-wrapper-18 {
-  color: #70a9a1;
-  font-family: "Outfit", Helvetica;
-  font-size: 64px;
-  font-weight: 600;
-  left: 189px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 1146px;
 }
 
 .blog {
-  background-color: #ffffff;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
-}
-
-.blog .div {
-  background-color: #ffffff;
-  height: 2692px;
-  overflow: hidden;
-  position: relative;
-  width: 100%;
-}
-
-.blog .overlap {
-  height: 524px;
-  left: -332px;
-  position: absolute;
-  top: 2286px;
-  width: 2104px;
-}
-
-.blog .footer {
-  background-color: #cfe0c3;
-  height: 524px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
-}
-
-.blog .overlap-group-wrapper {
-  height: 39px;
-  left: 386px;
-  position: absolute;
-  top: 76px;
-  width: 74px;
-}
-
-.blog .footer-navigation {
-  height: 188px;
-  left: 566px;
-  position: absolute;
-  top: 95px;
-  width: 61px;
-}
-
-.blog .text-wrapper-7 {
-  color: #ffffff;
-  font-family: "Outfit", Helvetica;
-  font-size: 15px;
-  font-weight: 600;
-  left: 0;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 0;
-}
-
-.blog .text-wrapper-8 {
-  color: #ffffff;
-  font-family: "Outfit", Helvetica;
-  font-size: 15px;
-  font-weight: 400;
-  left: 0;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 40px;
-}
-
-.blog .text-wrapper-9 {
-  color: #ffffff;
-  font-family: "Outfit", Helvetica;
-  font-size: 15px;
-  font-weight: 400;
-  left: 0;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 83px;
-}
-
-.blog .text-wrapper-10 {
-  color: #ffffff;
-  font-family: "Outfit", Helvetica;
-  font-size: 15px;
-  font-weight: 400;
-  left: 0;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 126px;
-}
-
-.blog .text-wrapper-11 {
-  color: #ffffff;
-  font-family: "Outfit", Helvetica;
-  font-size: 15px;
-  font-weight: 400;
-  left: 0;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 169px;
-}
-
-.blog .connect {
-  height: 188px;
-  left: 747px;
-  position: absolute;
-  top: 95px;
-  width: 79px;
-}
-
-.blog .legal {
-  height: 164px;
-  left: 926px;
-  position: absolute;
-  top: 95px;
-  width: 53px;
-}
-
-.blog .vector {
-  height: 148px;
-  left: 1142px;
-  position: absolute;
-  top: 119px;
-  width: 343px;
-}
-
-.blog .by-author-month-day {
-  color: #7a7a7a;
-  font-family: "Outfit", Helvetica;
-  font-size: 32px;
-  font-weight: 700;
-  left: 189px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 624px;
-  width: 1065px;
-}
-
-.blog .lorem-ipsum-dolor {
-  color: #7a7a7a;
-  font-family: "Outfit", Helvetica;
-  font-size: 24px;
-  font-weight: 400;
-  left: 188px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 753px;
-  width: 1066px;
 }
