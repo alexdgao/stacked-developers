@@ -1,4 +1,3 @@
-
 import React from "react";
 import NavBar from "./NavBar.jsx";
 import "./style.css";
@@ -7,145 +6,45 @@ import { Link } from 'react-router-dom';
 function HomePage() {
   return (
     <div className="home-page">
-      <div className="div">
-        <NavBar />
-        <div className="hello-food-lovers">
-          <div className="overlap">
-            <div className="text-wrapper-7">hello</div>
-            <div className="text-wrapper-8">lovers</div>
-            <img className="dish-removebg" alt="Dish removebg" src="/static/img/dish-2-removebg-preview-1.png" />
-            <img className="image" alt="Image" src="/static/img/image-5.png" />
-            <div className="text-wrapper-9">food</div>
-            <img className="img" alt="Image" src="/static/img/image-2.png" />
-            <div className="text-wrapper-8">l</div>
-            <div className="side-food-pictures">
-              <div className="overlap-group-2">
-                <div className="text-wrapper-10">week night salad</div>
-                <img className="image-2" alt="Image" src="/static/img/image-3.png" />
-              </div>
-              <div className="overlap-2">
-                <div className="text-wrapper-11">deconstructed</div>
-                <div className="text-wrapper-12">omelette</div>
-                <img className="image-3" alt="Image" src="/static/img/image-4.png" />
-              </div>
+      <NavBar />
+      <img style={{top: "110px", position: "absolute"}} src="/static/img/homepage_top_image.png"></img>
+      <div className="overlap-6">
+        <div className="text-blurb">
+          <p className="paragraph-title">who are we?</p>
+          <p className="paragraph-text"> Welcome to Berkeley Foodies—UC Berkeley&#39;s hub for food enthusiasts! We&#39;re a passionate group of students exploring the diverse culinary scene in Berkeley and beyond.</p>
+          <button className="button">
+            <div className="div-wrapper">
+              <Link to="/about" className="text-wrapper-25">learn more</Link>
             </div>
-          </div>
+          </button>
         </div>
-        <div className="our-latest-post">
-          <div className="overlap-3">
-            <div className="text-wrapper-13">our latest</div>
-            <div className="rectangle" />
-            <div className="rectangle-2" />
-            <div className="rectangle-3" />
-            <div className="rectangle-4" />
-            <img className="arrow" alt="Arrow" src="/static/img/arrow-1.svg" />
-            <img className="arrow-2" alt="Arrow" src="/static/img/arrow-2.svg" />
-            <div className="text-wrapper-14">Title 1</div>
-            <div className="text-wrapper-15">short description</div>
-            <div className="overlap-4">
-              <div className="text-wrapper-16">read more</div>
-              <img className="line" alt="Line" src="/static/img/line-5.svg" />
-            </div>
-            <div className="overlap-5">
-              <div className="text-wrapper-16">read more</div>
-              <img className="line" alt="Line" src="/static/img/line-5.svg" />
-            </div>
-            <div className="overlap-group-3">
-              <div className="text-wrapper-16">read more</div>
-              <img className="line" alt="Line" src="/static/img/line-5.svg" />
-            </div>
-            <div className="text-wrapper-17">short description</div>
-            <div className="text-wrapper-18">short description</div>
-            <div className="text-wrapper-19">author, 10/01/23</div>
-            <div className="text-wrapper-20">author, 10/01/23</div>
-            <div className="text-wrapper-21">author, 10/01/23</div>
-            <div className="text-wrapper-22">Title 2</div>
-            <div className="text-wrapper-23">Title 3</div>
-            <img className="arrow-3" alt="Arrow" src="/static/img/arrow-5.svg" />
-            <img className="arrow-4" alt="Arrow" src="/static/img/arrow-5.svg" />
-            <img className="arrow-5" alt="Arrow" src="/static/img/arrow-5.svg" />
-          </div>
+        <div align="right">
+          <img src="/static/img/image-6.png" />
         </div>
-        <div className="overlap-6">
-          <div className="text-blurbs">
-            <div className="who-are-we">
-              <div className="text-wrapper-24">who are we?</div>
-              <p className="welcome-to-blog-name">
-                Welcome to [Blog Name]—UC Berkeley&#39;s hub for food enthusiasts! We&#39;re a passionate group of
-                students exploring the diverse culinary scene in Berkeley and beyond.
-              </p>
-              <button className="button">
-                <div className="div-wrapper">
-                  <Link to="/about" className="text-wrapper-25">learn more</Link>
-                </div>
-              </button>
-            </div>
-            <div className="the-hub">
-              <div className="the-hub-for-hungry">
-                the hub for
-                <br />
-                hungry people
-              </div>
-              <button className="overlap-group-wrapper">
-                <div className="div-wrapper">
-                  <Link to="/blog" className="text-wrapper-26">all posts</Link>
-                </div>
-              </button>
-              <p className="discover-quick">
-                Discover quick, delicious recipes tailored for busy UC Berkeley lifestyles. From nutritious on-the-go
-                snacks to easy weeknight dinners, our recipes are crafted for the health-conscious foodies with a
-                passion for flavor and efficiency. Let&#39;s nourish our bodies and savor every bite, even on the
-                busiest days!
-              </p>
-            </div>
-            <div className="join-the">
-              <div className="join-the-movement">
-                join the
-                <br />
-                movement!
-              </div>
-              <p className="unlock-a-world-of">
-                Unlock a world of flavors by creating your account on Berkeley Food Blog! Save your favorite recipes, share
-                your culinary creations, and stay updated on the latest tasty discoveries. Let&#39;s make your food
-                journey even more delicious together—sign up today!
-              </p>
-              <button className="button-2">
-                <div className="overlap-group-4">
-                  <Link to="/login" className="text-wrapper-27">login</Link>
-                </div>
-              </button>
-            </div>
-          </div>
-          <div className="text-wrapper-28">image to be added</div>
-          <div className="text-wrapper-29">image to be added</div>
-          <div className="text-wrapper-30">image to be added</div>
-          <img className="image-4" alt="Image" src="/static/img/image-6.png" />
-          <img className="image-5" alt="Image" src="/static/img/image-7.png" />
-          <img className="image-6" alt="Image" src="/static/img/image-8.png" />
+        <div>
+          <img src="/static/img/image-7.png" />
         </div>
-        <footer className="footer">
-          <div className="logo-text-2">
-            <div className="overlap-group">
-              <div className="text-wrapper-5">foodies</div>
-              <div className="text-wrapper-6">berkeley</div>
+        <div classname="text-blurb" align="right">
+          <p className="paragraph-title">for hungry students</p>
+          <p className="paragraph-text">Discover quick, delicious tips tailored for busy UC Berkeley lifestyles! Let's nourish our bodies and savor every bite, even on the busiest days!</p>
+          <button className="overlap-group-wrapper">
+            <div className="div-wrapper">
+              <Link to="/blog" className="text-wrapper-26">all posts</Link>
             </div>
-          </div>
-          <div className="footer-navigation">
-            <div className="text-wrapper-31">foodies</div>
-            <Link to="/" className="text-wrapper-32">home</Link>
-            <Link to="/about" className="text-wrapper-33">about</Link>
-            <Link to="/blog" className="text-wrapper-34">blog</Link>
-            <Link to="/login" className="text-wrapper-35">login</Link>
-          </div>
-          <div className="connect">
-            <div className="text-wrapper-31">connect</div>
-            <div className="text-wrapper-32">instagram</div>
-            <div className="text-wrapper-33">twitter</div>
-            <div className="text-wrapper-34">facebook</div>
-            <div className="text-wrapper-35">linkedin</div>
-          </div>
-          <img className="vector" alt="Vector" src="/static/img/vector.png" />
-        </footer>
+          </button>
+        </div>
+        <div className="text-blurb">
+          <p className="paragraph-title">join us!</p>
+          <p className="paragraph-text"> Sign up today and join our website's growing group of Berkeley student members!</p>
+          <button className="button">
+            <div className="overlap-group-4">
+              <Link to="/login" className="text-wrapper-27">login</Link>
+            </div>
+          </button>
+        </div>
+        <div align="right">
+          <img src="/static/img/image-8.png" />
+        </div>
       </div>
     </div>
   )
