@@ -10,7 +10,6 @@ Then in another terminal:
  - npm run dev
 
 Group Members:
- - Daniel Liu
  - David Liu
  - Yehchan Yoo
  - Alex Gao
