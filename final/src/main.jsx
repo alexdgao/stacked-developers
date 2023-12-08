@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import HomePage from './HomePage.jsx'
 import Blog from './Blog.jsx'
+import Blog1 from './Blog1.jsx'
 import About from './About.jsx'
 import Thankyou from './Thankyou.jsx'
 import Login from './Login.jsx'
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
   {
     path: "/blog",
     element: <Blog />,
+  },
+  {
+    path: "/blog1",
+    element: <Blog1 />,
   },
   {
     path: "/thankyou",
