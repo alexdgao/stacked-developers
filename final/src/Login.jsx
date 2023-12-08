@@ -57,9 +57,11 @@ function Login() {
             <input onChange={handleEmail} id="email" size="30" placeholder="email" />
           </div>
           <div className="overlap-4">
-            <input onChange={handlePassword} id="password" size="30" placeholder="password" />
+            <input onChange={handlePassword} type="password" id="password" size="30" placeholder="password" />
           </div>
           <button className="overlap-5" onClick={handleLogin}>submit</button>
+          <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+          <p className="errormessage">{errorMessage}</p>
         </div>
       </div>
     </div>
