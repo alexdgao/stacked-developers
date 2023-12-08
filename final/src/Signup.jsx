@@ -40,9 +40,6 @@ function Signup() {
         <div className="overlap">
           <div className="overlap-2">
             <div className="text-wrapper-7">register</div>
-            <div className="div-wrapper">
-              <button onClick={handleSubmit} className="text-wrapper-8">submit</button>
-            </div>
           </div>
           <div className="text-wrapper-9">sign up</div>
           <div className="overlap-3">
@@ -51,20 +48,7 @@ function Signup() {
           <div className="overlap-4">
             <input onChange={handlePassword} id="password" size="30" placeholder="password" />
           </div>
-          <div className="text-wrapper-11">or</div>
-          <img className="line" alt="Line" src="/static/img/line-7.svg" />
-          <img className="img" alt="Line" src="/static/img/line-7.svg" />
-          <div className="overlap-5">
-            <div className="text-wrapper-12">sign in with facebook</div>
-          </div>
-          <div className="overlap-6">
-            <div className="text-wrapper-13">sign in with google</div>
-          </div>
-          <div className="overlap-7">
-            <div className="text-wrapper-14">sign in with twitter</div>
-            <br />
-            <p className="errormessage">{errorMessage}</p>
-          </div>
+          <button onClick={handleSubmit} className="overlap-5">submit</button>
         </div>
       </div>
     </div>

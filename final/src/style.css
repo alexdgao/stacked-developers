@@ -282,14 +282,6 @@
   text-decoration: none;
 }
 
-.home-page .join-the {
-  height: 473px;
-  left: 0;
-  position: absolute;
-  top: 1159px;
-  width: 486px;
-}
-
 .home-page .overlap-group-4 {
   background-color: #70a9a1;
   border-radius: 100px;
@@ -370,26 +362,30 @@
 .login-page {
   background-color: #ffffff;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
   width: 100%;
+  top: 0;
 }
 
 .login-page .div {
   background-color: #ffffff;
   height: 1024px;
-  overflow: hidden;
   position: relative;
   width: 100%;
 }
 
 .login-page .overlap {
   background-color: #efefef;
-  height: 486px;
-  left: 317px;
-  position: absolute;
-  top: 269px;
-  width: 806px;
+  height: 100%;
+  max-height: 486px;
+  position: relative;
+  width: 100%;
+  max-width: 806px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 16%;
 }
 
 .login-page .overlap-2 {
@@ -397,7 +393,6 @@
   height: 486px;
   left: 530px;
   position: absolute;
-  top: 0;
   width: 276px;
 }
 
@@ -406,7 +401,7 @@
   font-family: "Outfit", Helvetica;
   font-size: 40px;
   font-weight: 600;
-  left: 45px;
+  left: 60px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
@@ -423,7 +418,7 @@
   line-height: 15.2px;
   position: absolute;
   text-align: center;
-  top: 202px;
+  top: 180px;
 }
 
 .login-page .div-wrapper {
@@ -459,7 +454,7 @@
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 34px;
+  top: 150px;
 }
 
 .login-page .overlap-3 {
@@ -468,7 +463,7 @@
   height: 29px;
   left: 44px;
   position: absolute;
-  top: 98px;
+  top: 200px;
   width: 239px;
 }
 
@@ -492,7 +487,17 @@
   height: 29px;
   left: 44px;
   position: absolute;
-  top: 140px;
+  top: 240px;
+  width: 239px;
+}
+
+.login-page .overlap-5 {
+  background-color: #d9d9d9;
+  border-radius: 100px;
+  height: 29px;
+  left: 44px;
+  position: absolute;
+  top: 280px;
   width: 239px;
 }
 
