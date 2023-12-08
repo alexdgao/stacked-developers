@@ -537,7 +537,7 @@
   width: 100%;
 }
 
-.about .name-text {
+.name-text {
   color: #70a9a1;
   font-family: "Outfit", Helvetica;
   font-size: 64px;
@@ -549,4 +549,16 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
+}
+
+.blog .blog-pic{
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  max-height: 600px;
+  object-fit: cover;
+}
+
+.blog .blog-link{
+  text-decoration: none;
 }
