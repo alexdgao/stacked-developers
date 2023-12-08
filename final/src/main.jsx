@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom/client'
 import HomePage from './HomePage.jsx'
 import Blog from './Blog.jsx'
 import Blog1 from './Blog1.jsx'
+import Blog2 from './Blog2.jsx'
+import Blog3 from './Blog3.jsx'
+import Blog4 from './Blog4.jsx'
 import About from './About.jsx'
 import Thankyou from './Thankyou.jsx'
 import Login from './Login.jsx'
@@ -34,6 +37,21 @@ const router = createBrowserRouter([
   {
     path: "/blog1",
     element: <Blog1 />,
+  },
+
+  {
+    path: "/blog2",
+    element: <Blog2 />,
+  },
+
+  {
+    path: "/blog3",
+    element: <Blog3 />,
+  },
+
+  {
+    path: "/blog4",
+    element: <Blog4 />,
   },
   {
     path: "/thankyou",
