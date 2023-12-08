@@ -562,3 +562,9 @@
 .blog .blog-link{
   text-decoration: none;
 }
+
+.horizontal-line {
+  border-top: 1px solid #000; 
+  margin-top: 20px; 
+  margin-bottom: 20px; 
+}
